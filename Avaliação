@@ -1,0 +1,161 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>New Opportunity</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: grey;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.primeiro {
+  background-color: white;
+  height: 70%;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  padding: 24px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+
+.segundo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.but {
+  background-color: white;
+  border: solid gray;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  color: black;
+}
+
+.terceira, .info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+
+ h2 {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 4px;
+}
+
+p {
+  font-size: 14px;
+  color: black;
+}
+
+.seque{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.verde {
+  background-color: green; 
+  color: white;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 13px;
+}
+
+.verde, .amarelo, .roxo{
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 13px;
+  color: black;
+}
+
+.roxo {
+  background-color: purple; 
+}
+
+.amarelo {
+  background-color: yellow;
+}
+
+.final {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.penultimo {
+  background-color: black;
+  color: white;
+  padding: 12px;
+  border: solid black;
+  border-radius: 24px;
+}
+
+.ultimo {
+  background-color: white;
+  color: black;
+  border: 1px solid gray;
+  padding: 12px;
+  border-radius: 24px;
+}
+  </style>
+</head>
+<body>
+  <div class="primeiro">
+    <div class="segundo">
+      <h4>New Opportunity</h4>
+      <button class="but">Available</button>
+    </div>
+
+    <div class="terceira">
+      <img src="#" class="avatar">
+      <h5>Jeniffer A.</h5>
+      <div>
+        <p>Meta — Facebook • California</p>
+      </div>
+    </div>
+
+    <div class="pricing-info">
+      <h2>$35,000 - $45,000</h2>
+      <p>14 Oct - 2024 • 89.5% Match</p>
+    </div>
+
+    <div class="seque">
+      <p class="verde">4.9</p>
+      <p class="roxo"> Web Design</p>
+      <p class="amarelo">Responsive</p>
+    </div>
+
+    <p class="description">
+      Need Responsive Website showcase product.<br>
+      Modern and visually appealing design.
+    </p>
+
+    <div class="info">
+      
+      <img src="#" class="avatar">
+      <h5>Robert T.</h5>
+      <div>
+        <p>Full Cycle Agency • Salt Lake</p>
+      </div>
+    </div>
+
+    <div class="final">
+      <button class="penultimo">Accept Project</button>
+      <button class="ultimo">Decline Offer</button>
+    </div>
+  </div>
+</body>
+</html>
